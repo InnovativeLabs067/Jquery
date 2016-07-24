@@ -1,0 +1,83 @@
+
+body {
+    font: 100% Arial, Verdana, sans-serif;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 1.3em;
+    margin-bottom: .5em;
+}
+.heading{
+    color: blue;
+    background-color: darkgrey;
+    font-size: 25px;
+}
+h3 {
+    font-size: 1.1em;
+    margin-bottom: 0;
+}
+.poem {
+    margin: 0 2em;
+}
+.highlight {
+    font-style: italic;
+    border: 1px solid #888;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: #ffc;
+    color: red;
+}
+.horizontal {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+
+
+a {
+    color: #00c;
+}
+a.mailto {
+    background: url(images/mail.png) no-repeat right top;
+    padding-right: 18px;
+}
+a.pdflink {
+    background: url(images/pdf.png) no-repeat right top;
+    padding-right: 18px;
+}
+a.henrylink {
+    background-color: #fff;
+    padding: 2px;
+    border: 1px solid #000;
+}
+
+tr {
+    background-color: #fff;
+}
+.alt {
+    background-color: #ccc;
+}
+
+
+body.large .chapter {
+    font-size: 1.5em;
+}
+body.narrow .chapter {
+    width: 400px;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+#switcher .hover {
+    cursor: pointer;
+    background-color: #afa;
+}
+.sub-level{
+    background-color: darkgray;
+}
